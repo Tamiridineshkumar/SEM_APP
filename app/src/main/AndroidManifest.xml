@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/SEM"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project1"
+        tools:targetApi="31" >
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FY_MECH_Sub"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name=".FY_CIVIL_Sub"
+            android:exported="true" />
+        <activity
+            android:name=".FY_AIML_Sub"
+            android:exported="true" />
+        <activity
+            android:name=".FY_IT_Sub"
+            android:exported="true" />
+        <activity
+            android:name=".FY_EEE_Sub"
+            android:exported="true" />
+        <activity
+            android:name=".FY_ECE_Sub"
+            android:exported="true" />
+        <activity
+            android:name=".FY_CSE_Sub"
+            android:exported="true" />
+        <activity
+            android:name=".FY_Branch"
+            android:exported="true" />
+        <activity
+            android:name=".TY_MECH_Sub"
+            android:exported="true" />
+        <activity
+            android:name=".TY_CIVIL_Sub"
+            android:exported="true" />
+        <activity
+            android:name=".TY_AIML_Sub"
+            android:exported="true" />
+        <activity
+            android:name=".TY_IT_Sub"
+            android:exported="true" />
+        <activity
+            android:name=".TY_EEE_Sub"
+            android:exported="true" />
+        <activity
+            android:name=".TY_ECE_Sub"
+            android:exported="true" />
+        <activity
+            android:name=".TH_CSE_Sub"
+            android:exported="true" />
+        <activity
+            android:name=".TYBranch"
+            android:exported="true" />
+        <activity
+            android:name=".SY_MECH_Sub"
+            android:exported="true" />
+        <activity
+            android:name=".SY_Civil_Sub"
+            android:exported="true" />
+        <activity
+            android:name=".SY_AIML_Sub"
+            android:exported="true" />
+        <activity
+            android:name=".SY_IT_Sub"
+            android:exported="true" />
+        <activity
+            android:name=".SY_EEE_Sub"
+            android:exported="true" />
+        <activity
+            android:name=".SY_ECE_SUB"
+            android:exported="true" />
+        <activity
+            android:name=".SY_CSE_Sub"
+            android:exported="true" />
+        <activity
+            android:name=".SYBranch"
+            android:exported="true" />
+        <activity
+            android:name=".AIMLSUB"
+            android:exported="true" />
+        <activity
+            android:name=".ITSUB"
+            android:exported="true" />
+        <activity
+            android:name=".ECESUB"
+            android:exported="true" />
+        <activity
+            android:name=".MECHSEM"
+            android:exported="true" />
+        <activity
+            android:name=".CIVILSEM"
+            android:exported="true" />
+        <activity
+            android:name=".ITSEM"
+            android:exported="true" />
+        <activity
+            android:name=".Subject4"
+            android:exported="true" />
+        <activity
+            android:name=".branch"
+            android:exported="true" />
+        <activity
+            android:name=".branch"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
