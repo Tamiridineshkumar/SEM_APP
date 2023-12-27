@@ -3,9 +3,27 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@color/white"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="810dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/sem_boder_pic_3"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="800dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sem_boder_pic4"
+        tools:layout_editor_absoluteX="0dp" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -23,6 +41,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
         android:text="Swarnandhra College of Engineering and Technology"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,6 +55,7 @@
         android:layout_height="wrap_content"
         android:text="Select The Year"
         android:textStyle="bold"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,6 +69,8 @@
         android:onClick="btn"
         android:text="1st Year->👨🏻‍🎓"
         app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@drawable/round_btn"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
@@ -61,6 +83,8 @@
         android:layout_height="wrap_content"
         android:onClick="btn2"
         android:text="2nd Year->👨🏻‍🎓👩🏻‍🎓"
+        android:background="@drawable/round_btn"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
@@ -74,6 +98,8 @@
         android:layout_height="wrap_content"
         android:onClick="btn3"
         android:text="3rd Year->👨🏻‍🎓👩🏻‍🎓👨🏻‍🎓"
+        android:background="@drawable/round_btn"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
@@ -87,6 +113,8 @@
         android:layout_height="wrap_content"
         android:onClick="btn4"
         android:text="4th Year->👨🏻‍🎓👩🏻‍🎓👨🏻‍🎓👩🏻‍🎓"
+        android:background="@drawable/round_btn"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"

@@ -5,6 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".Subject4">
 
 
@@ -24,6 +25,7 @@
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
         android:text="Swarnandhra College of Engineering and Technology"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,6 +37,7 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
         android:text="Select The Subject"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -46,9 +49,11 @@
     <Button
         android:id="@+id/button112"
         android:layout_width="295dp"
-        android:layout_height="56dp"
+        android:layout_height="40dp"
         android:onClick="btn112"
         android:text="DISCRETE MATHEMATICS"
+        android:background="@drawable/round_btn"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -58,9 +63,11 @@
     <Button
         android:id="@+id/button113"
         android:layout_width="295dp"
-        android:layout_height="56dp"
+        android:layout_height="40dp"
         android:onClick="btn113"
         android:text="MANAGERIAL ECONOMICS AND FINANCIAL ANALYSIS"
+        android:background="@drawable/round_btn"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -70,9 +77,11 @@
     <Button
         android:id="@+id/button114"
         android:layout_width="295dp"
-        android:layout_height="56dp"
+        android:layout_height="40dp"
         android:onClick="btn114"
         android:text="COMPUTER ORGANIZATION"
+        android:background="@drawable/round_btn"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -82,9 +91,11 @@
     <Button
         android:id="@+id/button115"
         android:layout_width="295dp"
-        android:layout_height="56dp"
+        android:layout_height="40dp"
         android:onClick="btn115"
         android:text="DATA STRUCTURES"
+        android:background="@drawable/round_btn"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -94,9 +105,11 @@
     <Button
         android:id="@+id/button116"
         android:layout_width="295dp"
-        android:layout_height="56dp"
+        android:layout_height="40dp"
         android:onClick="btn116"
         android:text="JAVA PROGRAMMING"
+        android:background="@drawable/round_btn"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -106,9 +119,11 @@
     <Button
         android:id="@+id/button117"
         android:layout_width="295dp"
-        android:layout_height="56dp"
+        android:layout_height="40dp"
         android:onClick="btn117"
         android:text="PROBABILITY AND STATISTICS"
+        android:background="@drawable/round_btn"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -118,9 +133,11 @@
     <Button
         android:id="@+id/button118"
         android:layout_width="295dp"
-        android:layout_height="56dp"
+        android:layout_height="40dp"
         android:onClick="btn118"
         android:text="OBJECT ORIENTED SOFTWARE ENGINEERING"
+        android:background="@drawable/round_btn"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -130,9 +147,11 @@
     <Button
         android:id="@+id/button119"
         android:layout_width="295dp"
-        android:layout_height="56dp"
+        android:layout_height="40dp"
         android:onClick="btn119"
         android:text="OPERATING SYSTEMS"
+        android:background="@drawable/round_btn"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -142,25 +161,30 @@
     <Button
         android:id="@+id/button120"
         android:layout_width="295dp"
-        android:layout_height="56dp"
+        android:layout_height="40dp"
         android:onClick="btn120"
         android:text="THEORY OF COMPUTATIONS"
+        android:background="@drawable/round_btn"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.888" />
+
     <Button
         android:id="@+id/button121"
         android:layout_width="295dp"
-        android:layout_height="56dp"
+        android:layout_height="40dp"
+        android:background="@drawable/round_btn"
         android:onClick="btn121"
         android:text="DATABASE MANAGEMENT SYSTEMS"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.888" />
+        app:layout_constraintVertical_bias="0.978" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
